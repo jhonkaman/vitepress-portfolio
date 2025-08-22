@@ -1,6 +1,6 @@
 # Kitchen Sink
 
-## Custom Container
+## Custom Containers
 
 ::: info
 This is an info box.
@@ -26,12 +26,16 @@ This is a details block.
 
 ## Code Blocks
 
+### Focus
+
 ```js
 // Javascript code with syntax highlighting.
 function greeting() {
   console.log("Hello World"); // [!code focus]
 }
 ```
+
+### Diffs
 
 ```js
 // Javascript code with syntax highlighting.
@@ -41,12 +45,16 @@ function greeting() {
 }
 ```
 
+### Errors and warnings
+
 ```js
 // Javascript code with syntax highlighting.
 function greeting() {
   console.log("Hello World") // [!code warning]
 }
 ```
+
+### Line Numbers
 
 ```js:line-numbers
 // Javascript code with syntax highlighting.
@@ -62,7 +70,11 @@ function greeting() {
 }
 ```
 
+### Imports
+
 <<< @/example.js
+
+### Code Groups
 
 ::: code-group
 ```css [main.css]

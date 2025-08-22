@@ -1,6 +1,30 @@
 # VitePress Portfolio Project
 
-## Create folder
+## Commands
+
+### Start dev server
+
+```
+npm run docs:dev
+```
+
+### Build
+
+```
+npm run docs:build
+```
+
+### Preview build
+
+```
+npm run docs:preview
+```
+
+## Create
+
+Here are the instructions for recreating this project.
+
+### Create folder
 
 ```
 mkdir vitepress-portfolio
@@ -10,7 +34,7 @@ mkdir vitepress-portfolio
 cd vitepress-portfolio
 ```
 
-## Add package
+### Add package
 
 ```
 npm init -y
@@ -20,7 +44,7 @@ npm init -y
 npm add -D vitepress@next
 ```
 
-## Setup
+### Setup
 
 ```
 npx vitepress init
@@ -57,24 +81,4 @@ npx vitepress init
 │  docs
 │
 └  Done! Now run npm run docs:dev and start writing.
-```
-
-## Commands
-
-### Start dev server
-
-```
-npm run docs:dev
-```
-
-### Build
-
-```
-npm run docs:build
-```
-
-### Preview build
-
-```
-npm run docs:preview
 ```

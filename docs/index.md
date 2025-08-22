@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
+  name: "Javier's VitePress"
+  text: "Demo"
   tagline: My great project tagline
   actions:
     - theme: brand
+      text: Kitchen Sink
+      link: /kitchen-sink
+    - theme: alt
       text: Markdown Examples
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
   - title: Feature A
